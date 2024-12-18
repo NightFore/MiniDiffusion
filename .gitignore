@@ -2,3 +2,6 @@
 .idea/
 assets/
 images/
+delete/
+**/data/
+**/logs/
