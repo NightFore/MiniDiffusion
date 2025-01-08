@@ -1,9 +1,23 @@
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# IDE-specific files
 .idea/
+
+# Generated files and directories
 assets/
 images/
 delete/
-**/data/
-**/logs/
 
+# Data and logs (recursive match in any directory)
+data/
+logs/
+output/
+
+# PyTorch model files
 checkpoints/
+*.ckpt
+*.pt
+
+# Personal documentation
+docs/
